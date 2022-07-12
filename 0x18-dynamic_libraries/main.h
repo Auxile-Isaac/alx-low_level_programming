@@ -1,5 +1,7 @@
-#ifndef HOLBERTON_H
-#define HOLBERTON_H
+#ifndef DYNLIB
+#define DYNLIB
+
+#include <stdlib.h>
 
 int _putchar(char c);
 int _islower(int c);

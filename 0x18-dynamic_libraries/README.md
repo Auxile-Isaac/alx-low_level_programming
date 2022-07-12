@@ -1,3 +1,1 @@
-# C - Dynamic libraries
-
-
+ALX SE Dynamic libraries
