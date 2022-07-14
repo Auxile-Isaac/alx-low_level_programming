@@ -1,1 +1,1 @@
-ALX SE Dynamic libraries
+**This directory is for dynamic libraries**
