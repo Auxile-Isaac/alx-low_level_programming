@@ -1,26 +1,24 @@
 #include <stdio.h>
 
 /**
- * main - prime numbers
+ * main - Entry point.
  *
- * Return: 0
+ * Return: Always 0.
  */
 
 int main(void)
-{
-	long num = 612852475143;
-	long divisor = 2;
-	long larg_prim = 0;
 
-	while (num != 1)
-	{
-		if (num % divisor == 0)
-		{
-			num = num / divisor;
-			larg_prim = divisor;
-		}
-		divisor += 1;
-	}
-	printf("%ld\n", larg_prim);
-	return (0);
+{
+long n, i;
+
+n = 612852475143;
+for (i = 2; i < n; i++)
+{
+while (n % i == 0)
+n = n / i;
+}
+
+printf("%lu\n", n);
+
+return (0);
 }
